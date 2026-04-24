@@ -1,6 +1,6 @@
 # Hi there 👋
 
-I'm a Data Science student at FIAP, passionate about turning data into actionable insights. My main skills include:
+Data Analyst, passionate about turning data into actionable insights. My main skills include:
 
 - **SQL**: Data querying & management
 - **Python**: Data analysis, machine learning, and automation
