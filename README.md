@@ -11,7 +11,7 @@ Data Analyst, passionate about turning data into actionable insights. My main sk
 Currently pursuing my degree at FIAP, I enjoy working on real-world projects and learning about new trends in data science and AI. I'm eager to collaborate, contribute to open-source, and grow my skills through hands-on experience.
 
 ## Projects
-- [Bussola FIDCS](https://github.com/leonardo-lacerda-data/nuclea_fidics): Plataforma analítica e preditiva desenvolvida para a empresa Núclea. O sistema utiliza inteligência artificial (random forest e k-means) para análise de risco de crédito e segmentação comportamental de sacados, cruzando dados transacionais com indicadores macroeconômicos e análise de sentimento de notícias (NLP) em tempo real
+- [Bussola FIDCS](https://github.com/leonardo-lacerda-data/nuclea_fidics): An analytical and predictive platform that uses artificial intelligence (random forest and k-means) for credit risk analysis and behavioral segmentation of account holders, cross-referencing transactional data with macroeconomic indicators and real-time news sentiment analysis (NLP)
 - [sgv_melhorescompras](https://github.com/leonardo-lacerda-data/sgv_melhorescompras): SGV_MelhoresCompras is a relational management system for data storage in an e-commerce environment.
 
 ## Connect with Me
