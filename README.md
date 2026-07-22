@@ -13,7 +13,6 @@ Currently pursuing my degree at FIAP, I enjoy working on real-world projects and
 ## Projects
 - [Bussola FIDCS](https://github.com/leonardo-lacerda-data/nuclea_fidics): Plataforma analítica e preditiva desenvolvida para a empresa Núclea. O sistema utiliza inteligência artificial (random forest e k-means) para análise de risco de crédito e segmentação comportamental de sacados, cruzando dados transacionais com indicadores macroeconômicos e análise de sentimento de notícias (NLP) em tempo real
 - [sgv_melhorescompras](https://github.com/leonardo-lacerda-data/sgv_melhorescompras): SGV_MelhoresCompras is a relational management system for data storage in an e-commerce environment.
-- [European Leagues Exploratory Analysis](https://github.com/leonardo-lacerda-data/futeboldataanalysis): This project conducts an exploratory and statistical analysis of players in European soccer leagues for the 2024/2025 season.
 
 ## Connect with Me
 - [LinkedIn](www.linkedin.com/in/leonardo-lacerda-data) <!-- Replace # with your LinkedIn URL -->
