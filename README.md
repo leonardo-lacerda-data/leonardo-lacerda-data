@@ -43,17 +43,11 @@ Analytical and predictive platform for **credit risk assessment and behavioral s
 - Transactional data cross-referenced with macroeconomic indicators
 - News sentiment analysis (NLP) as an additional risk signal
 
-### 🛒 [SGV — Melhores Compras](https://github.com/leonardo-lacerda-data/sgv_melhorescompras)
-
-`SQL` `Oracle` `Relational Modeling`
-
-Relational management system for an e-commerce environment, covering schema design, entity relationships and data integrity constraints for order, product and customer records.
-
 ---
 
 ## Cloud & Infrastructure
 
-### ☁️ Oracle Cloud Infrastructure — Alura
+### ☁️ [Oracle Cloud Infrastructure — Alura](https://github.com/alura-es-cursos/5555-Oracle_Cloud_Infrastructure_banco_de_dados_e_infraestrutura_como_codigo)
 
 `OCI` `Compute` `VCN` `Load Balancer` `Linux` `Web Hosting`
 
