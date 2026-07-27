@@ -9,7 +9,8 @@
 
 Data Science student at **FIAP** (graduating 2027), based in Santa Catarina, Brazil.
 
-I came into data from a commercial and e-commerce background, which shaped how I work: I care less about the model and more about whether the number changes someone's decision. Currently focused on analytics engineering fundamentals: SQL, data modeling, BI and cloud solutions that survive contact with real users.
+I came into data from a commercial and e-commerce background, which shaped how I work: I care less about the model and more about whether the number changes someone's decision.
+Currently focused on analytics engineering fundamentals: SQL, data modeling, BI and cloud solutions that survive contact with real users.
 
 ---
 
