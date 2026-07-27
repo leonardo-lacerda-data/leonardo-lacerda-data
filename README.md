@@ -1,5 +1,3 @@
-# Hi there 👋 I'm Leonardo Lacerda
-
 **Data Analyst focused on Business Intelligence, SQL and Python** — turning raw data into decisions people actually act on.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leonardo-lacerda-data)
