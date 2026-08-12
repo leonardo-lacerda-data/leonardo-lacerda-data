@@ -44,20 +44,20 @@ Analytical and predictive platform for **credit risk assessment and behavioral s
 
 ---
 
-## Cloud & Infrastructure
+## AI & Machine Learning
 
-### ☁️ [Oracle Cloud Infrastructure — Alura](https://github.com/alura-es-cursos/5555-Oracle_Cloud_Infrastructure_banco_de_dados_e_infraestrutura_como_codigo)
+### ☁️ [SCMedAI — Clinical Protocol Assistant](https://github.com/leonardo-lacerda-data/sc_med_ai)
 
-`OCI` `Compute` `VCN` `Load Balancer` `Linux` `Web Hosting`
+`RAG` `LangChain` `Gemini` `Terraform` `OCI` `Streamlit`
 
-Hands-on training in OCI, applied end to end: from provisioning bare infrastructure to serving a live web portal on top of it.
+A retrieval assistant that answers questions about a hospital's own clinical protocols, always citing the source document and page. Built for the healthcare market in Santa Catarina, and designed around a deliberate constraint: it is meant to refuse more often than it answers.
 
-- **Compute** — provisioned and configured virtual machine instances, including SSH key access and OS-level setup
-- **Networking (VCN)** — built Virtual Cloud Networks with subnets, route tables, internet gateways and security lists to control inbound and outbound traffic
-- **Load Balancing** — configured load balancers to distribute traffic across instances and keep the application reachable
-- **Deployment** — hosted and served a web portal running on this infrastructure
+- **Retrieval-Augmented Generation** — document ingestion, chunking with page-level provenance, vector indexing and metadata-filtered retrieval over a curated corpus
+- **Refusal by design** — the system abstains when the answer is not supported by the retrieved passages, and declines to evaluate individual patient cases; every response carries a mandatory source citation
+- **Evaluation set built before tuning** — 28 categorised questions in which abstention and refusal are the expected correct answers, not failures, covering direct lookup, cross-document synthesis and deliberate gaps in the corpus
+- **Infrastructure as Code** — Terraform stack for OCI Resource Manager provisioning VCN, subnets, compute and a load balancer with session persistence, with cloud-init handling application setup
 
-Why this matters for a data role: knowing how compute, networking and access control actually work makes me a better partner to engineering — whether the task is connecting to a database behind a private subnet, understanding where a pipeline runs, or reasoning about the cost and reliability of a data platform.
+every hard problem in this project was a data problem, not a model problem extraction quality, how documents are split, what metadata survives to retrieval time, and how you prove the output traces back to a real source. Building the evaluation set before tuning anything forced the same discipline a data pipeline needs: define what correct looks like first, then measure. And treating "I don't know" as a valid answer is a habit that transfers directly to reporting and analysis, where a confident wrong number costs more than an admitted gap.
 
 ---
 
