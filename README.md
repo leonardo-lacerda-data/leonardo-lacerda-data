@@ -10,7 +10,7 @@
 Data Science student at **FIAP** (graduating 2027), based in Santa Catarina, Brazil.
 
 I came into data from a commercial and e-commerce background, which shaped how I work: I care less about the model and more about whether the number changes someone's decision.
-Currently focused on analytics engineering fundamentals: SQL, data modeling, BI and cloud solutions that survive contact with real users.
+Currently focused on analytics engineering fundamentals: SQL, data modeling, AI & Cloud solutions that survive contact with real users.
 
 ---
 
@@ -18,18 +18,31 @@ Currently focused on analytics engineering fundamentals: SQL, data modeling, BI 
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
 ![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-C74634?style=flat-square&logo=oracle&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ---
 
-## Featured Projects
+## AI & Machine Learning
+
+### 🩺 [SCMedAI — Clinical Protocol Assistant](https://github.com/leonardo-lacerda-data/sc_med_ai)
+
+`RAG` `LangChain` `Gemini` `Terraform` `OCI` `Streamlit`
+
+A retrieval assistant that answers questions about a hospital's own clinical protocols, always citing the source document and page. Built for the healthcare market in Santa Catarina.
+
+- **Retrieval-Augmented Generation** — document ingestion, chunking with page-level provenance, vector indexing and metadata-filtered retrieval over a curated corpus
+- **Refusal by design** — the system abstains when the answer is not supported by the retrieved passages; every response carries a mandatory source citation
+- **Evaluation set built before tuning** — 28 categorised questions in which abstention and refusal are the expected correct answers, not failures, covering direct lookup, cross-document synthesis and deliberate gaps in the corpus
+- **Infrastructure as Code** — Terraform stack for OCI Resource Manager provisioning VCN, subnets, compute and a load balancer with session persistence, with cloud-init handling application setup
+
+Why this matters for a data role: Building the evaluation framework before adjusting anything required the same discipline needed for a data pipeline: first defining what is considered correct, and then measuring. And treating “I don’t know” as a valid answer is a habit that carries over directly to reporting and analysis, where an incorrect number presented with confidence costs more than an admitted gap.
+
+---
 
 ### 🧭 [BÚSSOLA FIDC](https://github.com/leonardo-lacerda-data/nuclea_fidics)
 
@@ -44,22 +57,6 @@ Analytical and predictive platform for **credit risk assessment and behavioral s
 
 ---
 
-## AI & Machine Learning
-
-### ☁️ [SCMedAI — Clinical Protocol Assistant](https://github.com/leonardo-lacerda-data/sc_med_ai)
-
-`RAG` `LangChain` `Gemini` `Terraform` `OCI` `Streamlit`
-
-A retrieval assistant that answers questions about a hospital's own clinical protocols, always citing the source document and page. Built for the healthcare market in Santa Catarina, and designed around a deliberate constraint: it is meant to refuse more often than it answers.
-
-- **Retrieval-Augmented Generation** — document ingestion, chunking with page-level provenance, vector indexing and metadata-filtered retrieval over a curated corpus
-- **Refusal by design** — the system abstains when the answer is not supported by the retrieved passages, and declines to evaluate individual patient cases; every response carries a mandatory source citation
-- **Evaluation set built before tuning** — 28 categorised questions in which abstention and refusal are the expected correct answers, not failures, covering direct lookup, cross-document synthesis and deliberate gaps in the corpus
-- **Infrastructure as Code** — Terraform stack for OCI Resource Manager provisioning VCN, subnets, compute and a load balancer with session persistence, with cloud-init handling application setup
-
-every hard problem in this project was a data problem, not a model problem extraction quality, how documents are split, what metadata survives to retrieval time, and how you prove the output traces back to a real source. Building the evaluation set before tuning anything forced the same discipline a data pipeline needs: define what correct looks like first, then measure. And treating "I don't know" as a valid answer is a habit that transfers directly to reporting and analysis, where a confident wrong number costs more than an admitted gap.
-
----
 
 ## GitHub Stats
 
