@@ -1,5 +1,3 @@
-**Data Engineer focused on Business Intelligence, Analytics, Cloud Infrascture & AI** — turning raw data into decisions people actually act on.
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leonardo-lacerda-data)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:leonardo.a.lacerda1@gmail.com)
 
@@ -9,8 +7,9 @@
 
 Data Science student at **FIAP** (graduating 2027), based in Santa Catarina, Brazil.
 
-I came into data from a commercial and e-commerce background, which shaped how I work: I care less about the model and more about whether the number changes someone's decision.
-Currently focused on analytics engineering fundamentals: SQL, data modeling, AI & Cloud solutions that survive contact with real users.
+I came into data from a commercial and e-commerce background.
+Currently focused on analytics engineering fundamentals: SQL, data modeling, AI & Cloud solutions turning raw data into decisions people actually act on.
+
 
 ---
 
