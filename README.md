@@ -7,7 +7,7 @@
 
 ```python
 leonardo = {
-    "foco":        ["Dados", "Machine Learning", "Automação e IA"],
+    "foco":        ["Dados", "Machine Learning", "Automação, Infraestruturas Cloud"],
     "estudando":   "Data Science · FIAP (2025–2027)",
     "Experiência": "Já fui sócio-administrador de uma empresa de e-commerce",
     "localização": "Santa Catarina, SC 🇧🇷",
