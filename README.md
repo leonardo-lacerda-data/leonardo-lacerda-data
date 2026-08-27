@@ -3,9 +3,17 @@
 
 ---
 
-## About Me
+## Sobre mim
 
-Data Science student at **FIAP** (graduating 2027), based in Santa Catarina, Brazil.
+```python
+leonardo = {
+    "foco":        ["Dados", "Machine Learning", "Automação e IA"],
+    "estudando":   "Data Science · FIAP (2025–2027)",
+    "Experiência": "Já fui sócio-administrador de uma empresa de e-commerce",
+    "localização": "Santa Catarina, SC 🇧🇷",
+    "idiomas":     ["Português 🇧🇷", "Inglês 🇺🇸 (Avançado)"],
+}
+```
 
 I came into data from a commercial and e-commerce background.
 Currently focused on analytics engineering fundamentals: SQL, data modeling, AI & Cloud solutions turning raw data into decisions people actually act on.
